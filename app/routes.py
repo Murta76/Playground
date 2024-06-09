@@ -3,7 +3,7 @@ from flask import render_template
 @app.route('/')
 @app.route('/index')
 def index():
-    dados = {"nome": "Murta", "profissao": "marido", "canal": "Daniel Murta Barros"}
+    dados = {"nome": "teste", "profissao": "marido", "canal": "teste"}
     return render_template('index.html', dados=dados)
 @app.route('/contato')
 def contato():

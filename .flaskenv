@@ -1,2 +1,1 @@
 FLASK_APP=playground.py
-FLASK_ENV=DEVELOPMENT
